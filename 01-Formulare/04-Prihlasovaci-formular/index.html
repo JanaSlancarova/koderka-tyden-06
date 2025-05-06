@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="cs">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Přihlašovací formulář</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-		<!--
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Přihlašovací formulář</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--
 		Vytvoř přihlašovací formulář podle obrázku zadani-ukolu.png.
 
 		Formulář obsahuje email a heslo.
@@ -21,6 +20,29 @@
 		http://formular.itgirls.cz
 		... nebo ho napoj na některou z formulářových služeb na internetu.
 	-->
+    <div class="card">
+      <div class="head">Přihlášení</div>
+      <form action="http://formular.itgirls.cz">
+        <div class="main">
+          <div class="form-field">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" />
+          </div>
 
-</body>
+          <div class="form-field">
+            <label for="heslo">Heslo</label>
+            <input type="password" name="heslo" id="heslo" />
+          </div>
+
+          <div>
+            <input type="submit" value="Přihlásit se" class="button" />
+          </div>
+
+          <div class="forget">
+            <a href="#">Zapomenuté heslo?</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
