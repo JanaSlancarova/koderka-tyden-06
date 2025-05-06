@@ -15,44 +15,4 @@ BARVY:
 červená	na hlavičku		#e74c3c
 zelená na tlačítko		#2ecc71
 */
-form{
-	max-width: 400px;
-}
 
-.form-field{
-	font-size: 16px;
-	margin-bottom: 10px;
-}
-
-.form-field input,
-.form-field select,
-.form-field textarea{
-	width: 100%;
-	padding: 10px;
-	border: 1px solid grey;
-	border-radius: 3px;
-}
-
-.checkbox,
-.head{
-	margin-bottom: 10px;
-}
-
-.form-field label{
-	color: grey;
-
-}
-
-.head{
-	font-size: 22px;
-	color: dodgerblue;
-}
-
-.button{
-	background-color: dodgerblue;
-	color: white;
-	padding: 10px;
-	border-radius: 5px;
-	border: none;
-
-}
